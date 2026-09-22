@@ -41,3 +41,12 @@ p {
     border-radius: 6px;
     margin: 15px 0 25px 0;
 }
+h3 {
+    font-size: 17px;
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+
+h3 + p {
+    margin-top: 5px;
+}
