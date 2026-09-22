@@ -34,3 +34,10 @@ h2 {
 p {
     line-height: 1.6;
 }
+.profile-photo {
+    width: 240px;
+    height: 240px;
+    object-fit: cover;
+    border-radius: 6px;
+    margin: 15px 0 25px 0;
+}
