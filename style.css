@@ -54,14 +54,28 @@ h3 + p {
     justify-content: space-between;
     gap: 40px;
     margin-bottom: 30px;
+}.education-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+    margin-bottom: 28px;
 }
 
-.education-item h3 {
-    margin-top: 0;
+.education-row > div:first-child {
+    flex: 1;
 }
 
-.education-date {
+.education-row strong {
+    font-size: 17px;
+}
+
+.education-row p {
+    margin: 6px 0 0 0;
+}
+
+.education-right {
     white-space: nowrap;
     text-align: right;
-    font-weight: 500;
+    font-size: 16px;
 }
